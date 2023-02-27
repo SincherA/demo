@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+
+h1 {
+  display: inline;
+}
+
+h2 {
+  display: block;
+  margin: 30px;
+  padding: 15px;
+  border: dotted red 5px;
+}
+
+p {
+  display: inline;
+}
+
+
+div {
+  background-color: lightblue;
+  width: 400px;
+  padding: 30px;
+  margin: 40px;
+}
+
+div h3 {
+  border: black solid 5px;
+  margin: 20px;
+}
+
+
+div.headingbackround {
+  background-color: brown;
+  height: 20px;
+  width: 70%;
+  margin-left: 150px;
+  margin-bottom: 40px;
+  margin-top: 60px;
+}
+
+ol li {
+  /* change top and bottom margin: inline block */
+
+  display: inline-block;
+  margin: 20px;
+  padding: 10px;
+  border: solid blue 2px;
+}
